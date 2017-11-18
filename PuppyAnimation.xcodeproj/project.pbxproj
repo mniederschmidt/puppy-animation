@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93C6CFE41FB7E80D00C1088F /* PuppyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C6CFE31FB7E80D00C1088F /* PuppyViewController.swift */; };
+		93C6CFEB1FBCE9AE00C1088F /* PlayPuppyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C6CFEA1FBCE9AE00C1088F /* PlayPuppyViewController.swift */; };
 		93F6F1701FA788FF009FD71D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6F16F1FA788FF009FD71D /* AppDelegate.swift */; };
-		93F6F1721FA788FF009FD71D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6F1711FA788FF009FD71D /* ViewController.swift */; };
 		93F6F1751FA788FF009FD71D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F6F1731FA788FF009FD71D /* Main.storyboard */; };
 		93F6F1771FA788FF009FD71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F6F1761FA788FF009FD71D /* Assets.xcassets */; };
 		93F6F17A1FA788FF009FD71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F6F1781FA788FF009FD71D /* LaunchScreen.storyboard */; };
+		93F6F1831FA78B23009FD71D /* PuppyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6F1821FA78B23009FD71D /* PuppyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93C6CFE31FB7E80D00C1088F /* PuppyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuppyViewController.swift; sourceTree = "<group>"; };
+		93C6CFEA1FBCE9AE00C1088F /* PlayPuppyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPuppyViewController.swift; sourceTree = "<group>"; };
 		93F6F16C1FA788FF009FD71D /* PuppyAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuppyAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F6F16F1FA788FF009FD71D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93F6F1711FA788FF009FD71D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93F6F1741FA788FF009FD71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93F6F1761FA788FF009FD71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93F6F1791FA788FF009FD71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93F6F17B1FA788FF009FD71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F6F1821FA78B23009FD71D /* PuppyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuppyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				93F6F16F1FA788FF009FD71D /* AppDelegate.swift */,
-				93F6F1711FA788FF009FD71D /* ViewController.swift */,
-				93F6F1731FA788FF009FD71D /* Main.storyboard */,
 				93F6F1761FA788FF009FD71D /* Assets.xcassets */,
 				93F6F1781FA788FF009FD71D /* LaunchScreen.storyboard */,
 				93F6F17B1FA788FF009FD71D /* Info.plist */,
+				93F6F1731FA788FF009FD71D /* Main.storyboard */,
+				93C6CFEA1FBCE9AE00C1088F /* PlayPuppyViewController.swift */,
+				93C6CFE31FB7E80D00C1088F /* PuppyViewController.swift */,
+				93F6F1821FA78B23009FD71D /* PuppyTableViewController.swift */,
 			);
 			path = PuppyAnimation;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F6F1721FA788FF009FD71D /* ViewController.swift in Sources */,
+				93F6F1831FA78B23009FD71D /* PuppyTableViewController.swift in Sources */,
+				93C6CFE41FB7E80D00C1088F /* PuppyViewController.swift in Sources */,
 				93F6F1701FA788FF009FD71D /* AppDelegate.swift in Sources */,
+				93C6CFEB1FBCE9AE00C1088F /* PlayPuppyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
